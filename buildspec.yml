@@ -10,12 +10,12 @@ phases:
       - echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >>~/.bashrc
       - eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
        - echo "Installing Node.js and dependencies"
-      - npm install
       - brew install gcc
       - brew install node
       - node -v
       - brew install yarn
       - yarn -v
+       - npm install
        - echo "Installing dependencies..."
       - npm install -g eslint@8.26.0
        - npm install dotenv@16.0.0 
