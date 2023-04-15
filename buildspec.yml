@@ -16,17 +16,10 @@ phases:
       - yarn -v
        - echo "Installing dependencies..."
       - npm install -g eslint@8.26.0
-      - npm install @emotion/react@11.10.5 
-      - npm install @emotion/styled@11.10.5 
-       - npm install @material-ui/core@4.12.4 
-        - npm install @material-ui/icons@4.11.3 
-         - npm install @mui/material@5.10.13 
-          - npm install antd@4.24.1 axios@0.25.0 axios-hooks@3.0.0 
-           - npm install bcrypt@5.0.1 
-            - npm install dotenv@16.0.0 
-             - npm install form-data@4.0.0 lodash@4.17.21 moment@2.29.1 
-              - npm install next@13.0.1 
-               - npm install react@18.2.0 
-                - npm install react-content-loader@6.2.0 react-device-detect@2.2.2 react-dom@18.2.0 react-grid-system@8.1.6 react-lodash@0.1.2 react-paginate@8.1.4 react-select@5.6.1 
-                 - npm install styled-components@5.3.6
+       - npm install dotenv@16.0.0 
+       - npm install form-data@4.0.0 lodash@4.17.21 moment@2.29.1 
+       - npm install next@13.0.1 
+       - npm install react@18.2.0 
+       - npm install react-content-loader@6.2.0 react-device-detect@2.2.2 react-dom@18.2.0 react-grid-system@8.1.6 react-lodash@0.1.2 react-paginate@8.1.4 react-select@5.6.1 
+           
 
