@@ -5,6 +5,13 @@ phases:
     runtime-versions:
       nodejs: 16
     commands:
-      - echo "Installing Homebrew for user 'ubuntu'"
-      -  '/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"'
-      
+      - echo "Installing Homebrew"
+      - /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+      - echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >>~/.bashrc
+      - eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+      - brew install gcc
+      - brew install node
+      - node -v
+      - brew install yarn
+      - yarn -v
+
